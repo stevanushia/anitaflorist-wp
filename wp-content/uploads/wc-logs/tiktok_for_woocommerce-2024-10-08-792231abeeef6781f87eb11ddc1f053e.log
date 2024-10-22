@@ -1,0 +1,27 @@
+2024-10-08T03:37:48+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_6704a90cdc5b6httpanitafloristtestwp-admin","smb_name":"PROD","redirect_url":"http:\/\/anitaflorist.test\/wp-admin\/"}
+ ajax: no
+2024-10-08T03:37:49+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 2024100803374927BDC2FE40D824B01ACF,2024100803374927BDC2FE40D824B01ACF
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Server-Timing: inner; dur=61
+x-tt-trace-host: 01cd7ab57be4e0d38a252b18cac9ceb7bf0232f25bb07e7c6b4cb5d723350f848eb6da575b28b467db8dad054ff67ebad66f7ddcd5a6dcc90ccc67185155cfb33c61f99c9f6d117609e7c988950cb78e7fd999b5bb551c97f3e45906a3feb4ed63
+x-tt-trace-id: 00-24100803374927BDC2FE40D824B01ACF-6F030E8E36F79EC0-00
+Server: TLB
+Content-Encoding: gzip
+Date: Tue, 08 Oct 2024 03:37:50 GMT
+Content-Length: 206
+X-Cache: TCP_MISS from a23-48-173-21.deploy.akamaitechnologies.com (AkamaiGHost/11.6.4-e26983a004e229b4ffa935b6e3b2fe8f) (-)
+Connection: close
+Vary: Accept-Encoding
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=3, origin; dur=82
+X-Origin-Response-Time: 82,23.48.173.21
+X-Akamai-Request-ID: 5e3fabe3
+
+{"code":0,"msg":"ok","data":{"app_id":"7423243967296208914","external_data_key":"ee71de5d-0438-4b69-9400-fbc26be40396","redirect_uri":"http:\/\/anitaflorist.test\/wp-admin\/","app_secret":"ef4e4b77e97c593d93d99bb9053598886828e680"}}
+
